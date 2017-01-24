@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_tenant_menu"
+    android:layout_width="500dp"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.appstone.www.securegateapp3.tenant_menu">
+
+
+    <ImageButton
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        app:srcCompat="@drawable/ic_insert_invitation_black_24dp"
+        android:id="@+id/imageButton"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        app:srcCompat="@drawable/notice_board"
+        android:layout_below="@+id/imageButton"
+        android:layout_alignEnd="@+id/imageButton"
+
+        android:id="@+id/imageButton2" />
+
+    <ImageButton
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        app:srcCompat="@drawable/maintenence"
+        android:layout_below="@+id/imageButton2"
+        android:layout_alignEnd="@+id/imageButton2"
+
+        android:id="@+id/imageButton3" />
+
+    <ImageButton
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        app:srcCompat="@drawable/notification"
+        android:layout_above="@+id/imageButton3"
+        android:layout_alignEnd="@+id/imageButton5"
+
+        android:id="@+id/imageButton6" />
+
+    <ImageButton
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        app:srcCompat="@drawable/pay_rent"
+        android:layout_alignBottom="@+id/imageButton3"
+        android:layout_alignEnd="@+id/imageButton6"
+
+        android:id="@+id/imageButton7" />
+
+    <ImageButton
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        app:srcCompat="@drawable/see_invite"
+
+        android:id="@+id/imageButton5"
+        android:layout_marginStart="29dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/imageButton" />
+
+
+</RelativeLayout>
